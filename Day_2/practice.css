@@ -1,0 +1,27 @@
+#box{
+  background-color: blue;
+}
+
+.heading{
+  color:red;
+}
+
+.div1{
+  display: inline-block;
+  background-color: pink;
+  height:100px;
+  width:100px;
+  border: 2px solid grey;
+  margin: 15px 15px 15px 15px;
+  border-radius: 50px;
+  padding: 8px 8px 8px 8px;
+}
+
+.div2{
+  display: inline-block;
+  background-color: skyblue;
+  height:100px;
+  width:100px;
+  border: 2px solid grey;
+  margin: 15px 15px 15px 15px;
+}

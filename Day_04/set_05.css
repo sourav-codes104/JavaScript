@@ -1,0 +1,36 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#box1{
+  background-color: pink;
+  display: inline-block;
+  height:100px;
+  width:100px;
+}
+
+#box2{
+  background-color: skyblue;
+  display: inline-block;
+  height:100px;
+  width:100px;
+}
+
+#box3{
+  background-color: magenta;
+  display: inline-block;
+  height:100px;
+  width:100px;
+}
+
+.main{
+  border: 2px solid black;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+}

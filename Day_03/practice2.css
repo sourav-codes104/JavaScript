@@ -1,0 +1,28 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar{
+  background-color: black;
+  height:60px;
+}
+
+#a,#b,#c,#d{
+  margin-right: 200px;
+}
+
+#a{
+  color:orange;
+  font-size:25px;
+}
+
+#b,#c,#d{
+  color:white;
+}
+
+#f{
+  background-color:#f08804;
+  color:white;
+}
+

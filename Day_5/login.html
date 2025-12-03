@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Aadhar Portal</title>
+    <link rel="stylesheet" href="aadhar.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="sub-header">
+        <img class="gov_logo" src="gov_logo.png" />
+      </div>
+      <div class="sub-header-2">
+        <img class="logo" src="logo.svg" />
+      </div>
+    </header>
+    <main>
+      <p class="greet-text">नमस्ते भारत.....</p>
+      <div class="details">
+        <form>
+          <div class="field">
+            <label>Name</label>
+            <input type="text" name="username" class="input" />
+          </div>
+          <div class="field">
+            <label>Age</label>
+            <input class="input" type="number" name="age" min="1" max="100" />
+          </div>
+          <div class="field">
+            <label>Gender:</label>
+            <div class="radio-group">
+              <label>
+                <input type="radio" name="gender" value="male" />
+                Male
+              </label>
+              <label>
+                <input type="radio" name="gender" value="female" />
+                Female
+              </label>
+            </div>
+          </div>
+          <div class="field">
+            <label>Caste</label>
+            <select type="input" name="caste">
+              <option value="1">General</option>
+              <option value="2">OBC</option>
+              <option value="3">ST</option>
+              <option value="4">SC</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" />
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

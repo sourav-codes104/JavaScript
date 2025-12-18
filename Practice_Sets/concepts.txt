@@ -1,0 +1,10 @@
+Shallow vs deep copy
+Reference vs value
+Why arrays are objects
+Difference between map, filter, reduce
+Why const objects can mutate
+Why == is dangerous
+Why functions are first-class citizens
+Why JSON methods fail sometimes
+Time complexity basics
+Common JS pitfalls beginners make

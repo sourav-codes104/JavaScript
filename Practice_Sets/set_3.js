@@ -33,3 +33,19 @@
 //   }
 // }
 // console.log(pair);
+
+// 3 Move all zeros to the end
+let arr = [0,1,0,2,4,0,3,5,0];
+let j = 0;
+
+for(let i=0;i<arr.length;i++){
+  if(arr[i]!==0){
+    if(i!==j){
+    let temp = arr[j];
+    arr[j] = arr[i];
+    arr[i] = temp;
+    }
+    j+=1;
+  }
+}
+console.log(arr);
